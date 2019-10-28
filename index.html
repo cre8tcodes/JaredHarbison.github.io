@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="portfolio website">
+  <meta name="author" content="Jared Harbison">
+  <title>Jared Harbison</title>
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">       
+  <!-- Custom CSS -->
+  <link href="app/css/main.css" rel="stylesheet">
+  <link href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css" rel="stylesheet" >
+  <script src="https://kit.fontawesome.com/61bbbbc2a5.js" crossorigin="anonymous"></script>
+</head>
+
+
+
+<body data-spy="scroll" data-target=".navbar">
+
+  <!----------------------------------------------------------->
+  <!----------------------------------------------------------->
+  <!-- Background & Top Banner -------------------------------->
+  <!----------------------------------------------------------->
+  <!----------------------------------------------------------->
+
+  <div class="background background-rom-and-moon">
+
+  <div class="jumbotron jumbotron-fluid bg-transparent" id="home">
+    <div class="row">
+      <div class="col-lg-12 text-center text-white" style="height: 100vh;">
+        <h1 class="mt-5" style="font-size:400%; text-transform:uppercase;">Jared Harbison</h1>
+        <p class="lead">Full Stack Web Developer</p>
+        <p class="lead">
+          <a href="https://www.linkedin.com/in/jaredharbison" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+          <a href="https://www.github.com/jaredharbison" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+          <a href="https://www.dev.to/jaredharbison" target="_blank"><i class="fab fa-dev fa-2x"></i></a>
+        </p>
+      </div>
+    </div>
+  </div> 
+
+  <!--<img class="rom-crane bg-transparent mt5" src="app/images/rom-crane-mirror.png" alt="rom-crane">-->
+ 
+  <!----------------------------------------------------------->
+  <!----------------------------------------------------------->
+  <!-- Portfolio ---------------------------------------------->
+  <!----------------------------------------------------------->
+  <!----------------------------------------------------------->
+ 
+  <div class="jumbotron jumbotron-fluid banner" id="portfolio">
+    <h1 class="text-center text-white">Portfolio</h1>
+    <div class="mt-5 container-fluid">
+      <div class="col-lg-12">
+        <div id="portfolio-carousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container-fluid d-flex justify-content-center">
+                <div class="card mb-3">
+                  <div class="card-header">
+                    <h5 class="text-center">DRAGnet</h5>
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">DRAGnet provides a simple user interface to interact with details about contestants from Ru Paul's Drag Race.</p>
+                    <ul>
+                      <li class="card-text">Ruby on Rails --API for a solid RESTful backend</li>
+                      <li class="card-text">React create-react-app for an ultra-fast single-page frontend</li>
+                      <li class="card-text">Redux and Thunk for state management</li>
+                      <li class="card-text">Semantic UI for a sleek user interface</li>
+                    </ul>
+                  </div>
+                  <div class="card-footer text-center">
+                    <i class="fab fa-youtube" title="video coming soon"></i>
+                    <a href="https://github.com/JaredHarbison/DRAGnet" title="check out the code" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://dev.to/jaredharbison/dragnet-4420" title="read about the project" target="_blank"><i class="fab fa-dev"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container-fluid d-flex justify-content-center">
+                <div class="card mb-3">
+                  <div class="card-header">
+                    <h5 class="text-center">werqbook</h5>
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">werqbook facilitates project sharing across various user-generated topics with a dynamic and responsive user interface.</p>
+                    <ul>
+                      <li class="card-text">Ruby on Rails from back to front</li>
+                      <li class="card-text">jQuery for DOM manipulation, event handling, and Ajax</li>
+                      <li class="card-text">Devise and Omniauth for user registration and authentication</li>
+                      <li class="card-text">Rspec and Capybara for testing, FactoryGirl for generating test data</li>
+                    </ul>                
+                  </div>
+                  <div class="card-footer text-center">
+                    <i class="fab fa-youtube" title="video coming soon"></i>
+                    <a href="https://github.com/JaredHarbison/socialbase" title="check out the code" target="_blank"><i class="fab fa-github"></i></a>
+                    <i class="fab fa-dev" title="no blog post at this time"></i>
+                  </div>      
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container-fluid d-flex justify-content-center">
+                <div class="card mb-3">
+                  <div class="card-header">
+                    <h5 class="text-center">QueensList</h5>
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">QueensList creates a streamlined platform for users to interact with one another in a micro-post format.</p>
+                    <ul>
+                      <li class="card-text">Ruby on Rails from back to front</li>
+                      <li class="card-text">ActionMailer for registration and password emails</li>
+                      <li class="card-text">CarrierWave::MiniMagick for file uploading in posts</li>
+                      <li class="card-text">jQuery for updating follow/unfollow user associations</li>
+                    </ul>
+                  </div>
+                  <div class="card-footer text-center">
+                    <i class="fab fa-youtube" title="video coming soon"></i>
+                    <a href="https://github.com/JaredHarbison/queenslist" title="check out the code" target="_blank"><i class="fab fa-github"></i></a>
+                    <i class="fab fa-dev" title="no blog post at this time"></i>
+                  </div>      
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#portfolio-carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#portfolio-carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>     
+
+
+  
+  <!----------------------------------------------------------->
+  <!----------------------------------------------------------->
+  <!-- Tech Stack --------------------------------------------->
+  <!----------------------------------------------------------->
+  <!----------------------------------------------------------->
+ 
+  <div class="jumbotron jumbotron-fluid bg-transparent" id="tech-stack">
+    <h1 class="text-center text-white">Tech Stack</h1>
+    <div class="mt-5 container-fluid text-white">
+      <div class="col d-flex justify-content-center">
+        <div class="container-fluid w-75 bg-transparent border-0">
+          <h1 class="text-center">
+          <i class="devicon-bootstrap-plain-wordmark"></i>
+          <i class="devicon-css3-plain-wordmark"></i>
+          <i class="devicon-django-plain-wordmark"></i>
+          <i class="devicon-docker-plain-wordmark"></i>
+          <i class="devicon-gimp-plain"></i>
+          <i class="devicon-git-plain-wordmark"></i>
+          <i class="devicon-gulp-plain"></i>
+          <i class="devicon-heroku-original-wordmark"></i>
+          <i class="devicon-html5-plain-wordmark"></i>
+          <i class="devicon-javascript-plain"></i>
+          <i class="devicon-jquery-plain-wordmark"></i>
+          <i class="devicon-linux-plain"></i>
+          <i class="devicon-meteor-plain-wordmark"></i>
+          <i class="devicon-mocha-plain"></i>
+          <i class="devicon-mongodb-plain-wordmark"></i>
+          <i class="devicon-nodejs-plain-wordmark"></i>
+          <i class="devicon-postgresql-plain-wordmark"></i>
+          <i class="devicon-python-plain-wordmark"></i>
+          <i class="devicon-ruby-plain-wordmark"></i>
+          <i class="devicon-rails-plain-wordmark"></i>
+          <i class="devicon-react-original"></i>
+          <i class="devicon-sass-original"></i>
+          <i class="devicon-slack-plain-wordmark"></i>
+          <i class="devicon-trello-plain-wordmark"></i>
+          <i class="devicon-visualstudio-plain"></i>
+          </h1>
+        </div>
+      </div>  
+    </div>
+  </div>     
+ 
+  <!----------------------------------------------------------->
+  <!----------------------------------------------------------->
+  <!-- Experience --------------------------------------------->
+  <!----------------------------------------------------------->
+  <!----------------------------------------------------------->
+ 
+  <div class="jumbotron jumbotron-fluid banner" id="experience">
+    <h1 class="text-center text-white">Experience</h1>
+    <div class="mt-5 container-fluid">
+      <div class="col-lg-12">
+        <div id="experience-carousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container-fluid d-flex justify-content-center">
+                <div class="card mb-3">
+                  <div class="card-header">
+                    <p class="text-center">Jul 2008 to Oct 2012</p>
+                    <h5 class="text-center">Store Manager | Anthropologie</h5>
+                  </div>
+                  <div class="row no-gutters">
+                    <div class="col">
+                      <div class="card-body">
+                        <ul>
+                          <li class="card-text">Planned and executed the relocation of an iconic suburban location into a mixed-use urban environment</li>
+                          <li class="card-text">Met payroll targets with the creation of Excel workbooks to collect and calculate relevant data</li>
+                          <li class="card-text">Coached and counseled peers through weekly conference calls and quarterly workshops</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container-fluid d-flex justify-content-center">
+                <div class="card mb-3">
+                  <div class="card-header">
+                    <p class="text-center">Nov 2012 to Jun 2013</p>
+                    <h5 class="text-center">Store Manager | Urban Outfitters</h5>
+                  </div>
+                  <div class="row no-gutters">
+                    <div class="col">
+                      <div class="card-body">
+                        <ul>
+                          <li class="card-text">Increased productivity through teamwork & assembly line cadence in high volume areas of the business</li>
+                          <li class="card-text">Adjusted eisting systems to accommmodate a team working in the building 24hrs a day, 363 days a year</li>
+                          <li class="card-text">Met traffic demands with the implementation of Excel workbooks to identify gaps in staff availability</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container-fluid d-flex justify-content-center">
+                <div class="card mb-3">
+                  <div class="card-header">
+                    <p class ="text-center">Jul 2013 to Nov 2018</p>
+                    <h5 class="text-center">Store Director | J.Crew</h5>
+                  </div>
+                  <div class="row no-gutters">
+                    <div class="col">
+                      <div class="card-body">
+                        <ul>
+                          <li class="card-text">Increased productivity through daily & weekly dashboards for individual employees and the team as a whole</li>
+                          <li class="card-text">Improved team knowledge & morale through a gridded board to map ongoing training & awareness of new initiatives</li>
+                          <li class="card-text">Sourced unused CRM features to engage a team of up to 80 individuals</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#experience-carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#experience-carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>     
+ 
+  <!----------------------------------------------------------->
+  <!----------------------------------------------------------->
+  <!-- Career Highlights -------------------------------------->
+  <!----------------------------------------------------------->
+  <!-----------------------------------------------------------><!--
+ 
+  <div class="jumbotron jumbotron-fluid bg-transparent" id="highlights">
+    <div class="row">
+      <div class="col-lg-12 text-center text-white">
+        <h1 class="">Career Highlights</h1>
+        <p class="lead">coming soon</p>
+      </div>
+    </div>
+  </div>
+ 
+  --><!----------------------------------------------------------->
+  <!----------------------------------------------------------->
+  <!-- About Jared -------------------------------------------->
+  <!----------------------------------------------------------->
+  <!-----------------------------------------------------------><!--
+ 
+  <div class="jumbotron jumbotron-fluid banner" id="about-me">
+    <div class="row">
+      <div class="col-lg-12 text-center text-white">
+        <h1 class="">About Jared</h1>
+        <p class="lead">coming soon</p>
+      </div>
+    </div>
+  </div>     
+
+  --><!----------------------------------------------------------->
+  <!----------------------------------------------------------->
+  <!-- Testimonials ------------------------------------------->
+  <!----------------------------------------------------------->
+  <!-----------------------------------------------------------><!--
+ 
+  <div class="jumbotron jumbotron-fluid bg-transparent" id="testimonials">
+    <div class="row">
+      <div class="col-lg-12 text-center text-white">
+        <h1 class="">Testimonials</h1>
+        <p class="lead">coming soon</p>
+      </div>
+    </div>
+  </div>-->
+
+  <div class="jumbotron jumbotron-fluid bg-transparent" id="testimonials">
+    <div class="row">
+      <div class="col-lg-12 text-center text-white" style="text-transform:uppercase">
+        <h1 class="">More Coming Soon</h1>
+      </div>
+    </div>
+  </div>
+  <img class="rom-crane bg-transparent mt5" src="app/images/rom-crane.png" alt="rom-crane">
+
+</div>
+
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.slim.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+
+</body>
+
+
+
+
+</html>

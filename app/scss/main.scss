@@ -1,0 +1,72 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+
+/*///////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////*/
+/* Styling for site-wide preferences ////////////////*/
+/*///////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////*/
+
+a:visited, a:hover, a:active, a:focus { 
+	color: inherit !important;
+	text-decoration: none !important;
+	outline: none !important; }
+				  /**** disables link color changes ****/
+  
+  /*///////////////////////////////////////////////////*/
+  /*///////////////////////////////////////////////////*/
+  /* Styling for a background parallax effect /////////*/
+  /*///////////////////////////////////////////////////*/
+  /*///////////////////////////////////////////////////*/
+  
+  body {
+	min-height: 75rem;
+	padding-top: 0.0px;
+	position: relative;
+	background-color: #eceeef; }
+  
+  .background {
+	width: 100%;
+	height: 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-color: black;
+	min-height: 550px; }
+  
+  .background-rom-and-moon {
+	background-image: url(../images/rom-and-moon.jpg); }
+  
+  /*///////////////////////////////////////////////////*/
+  /*///////////////////////////////////////////////////*/
+  /* Styling for jumbotrons and additional images /////*/
+  /*///////////////////////////////////////////////////*/
+  /*///////////////////////////////////////////////////*/
+  
+  .jumbotron {
+	background-color: #202020; 
+	padding-top: 70px; }
+  
+  .banner {
+	opacity: .8; }
+		 /* for dark jumbotrons to show the background */
+  
+  .rom-crane {
+	width: 100%;
+	height: auto;
+	max-height: 350;
+	opacity: .9; }
+  
+  /*///////////////////////////////////////////////////*/
+  /*///////////////////////////////////////////////////*/
+  /* Styling for portfolio & experience carousel cards */
+  /*///////////////////////////////////////////////////*/
+  /*///////////////////////////////////////////////////*/
+  
+  .card {
+	min-height: 300px;
+	font-weight: bold; 
+	max-width: 80%; } 
+				 /* to avoid carousel overlap w/ cards */
+  
