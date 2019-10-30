@@ -4,16 +4,37 @@
   "description": "portfolio website",
   "main": "index.js",
   "scripts": {
+    "start": "node_modules/.bin/gulp watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JaredHarbison/JaredHarbison.github.io.git"
   },
+  "keywords": [
+    "portfolio",
+    "website"
+  ],
   "author": "Jared Harbison",
   "license": "MIT",
+  "engines": {
+    "node": "12.5.0"
+  },
   "bugs": {
     "url": "https://github.com/JaredHarbison/JaredHarbison.github.io/issues"
   },
-  "homepage": "https://github.com/JaredHarbison/JaredHarbison.github.io#readme"
+  "homepage": "https://github.com/JaredHarbison/JaredHarbison.github.io#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "merge-stream": "^2.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1"
+  }
 }
