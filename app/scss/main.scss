@@ -93,7 +93,11 @@ a:visited, a:hover, a:active, a:focus {
   
 
 
-/* Comming soon annimation   */
+  /*///////////////////////////////////////////////////*/
+  /*///////////////////////////////////////////////////*/
+  /* Comming soon animation ///////////////////////////*/
+  /*///////////////////////////////////////////////////*/
+  /*///////////////////////////////////////////////////*/
 
 @import url('https://fonts.googleapis.com/css?family=Anton|Roboto');
 
@@ -201,6 +205,38 @@ a:visited, a:hover, a:active, a:focus {
 	
 	90% {
 		transform: translateY(-48vh) scaleY(4);
+	}
+}
+
+.word span:nth-child(6).active {
+	animation: glidekip 1.5s linear;
+  }
+  
+@keyframes glidekip {
+	10%, 70% {
+		transform: scale(2, .2) translate(0, 20px);
+	}
+	
+	45%, 50% {
+		transform: scale(1) translate(0, 45px);
+	}
+	
+	80% {
+		transform: scale(1) translate(0, -75px);
+	}
+}
+
+.word span:nth-child(7).active {
+  animation: loopfinish 1s ease-out; 
+}
+
+@keyframes loopfinish {
+	0%, 100% {
+		transform: rotate(0deg);
+	}
+	
+	30%, 60% {
+		transform: rotate(-360deg);
 	}
 }
 
